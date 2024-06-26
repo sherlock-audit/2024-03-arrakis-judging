@@ -230,6 +230,10 @@ The protocol team fixed this issue in the following PRs/commits:
 https://github.com/ArrakisFinance/arrakis-modular/pull/88
 
 
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue H-2: Incorrect handling of first deposit for new modules leads to all liquidity sent to vault manager 
 
 Source: https://github.com/sherlock-audit/2024-03-arrakis-judging/issues/27 
@@ -705,6 +709,10 @@ Escalation status:
 The protocol team fixed this issue in the following PRs/commits:
 https://github.com/ArrakisFinance/arrakis-modular/pull/88
 
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue H-3: Through rebalance(), an executor can drain 100% of vault reserves by minting cheap shares 
 
@@ -1232,6 +1240,10 @@ The protocol team fixed this issue in the following PRs/commits:
 https://github.com/ArrakisFinance/arrakis-modular/pull/88
 
 
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue H-4: ArrakisMetaVault::setModule Malicious executor can drain the vault by calling withdraw after initializePosition 
 
 Source: https://github.com/sherlock-audit/2024-03-arrakis-judging/issues/50 
@@ -1340,6 +1352,10 @@ Fair enough, still wanted to get a confirmation. Let's proceed to each individua
 The protocol team fixed this issue in the following PRs/commits:
 https://github.com/ArrakisFinance/arrakis-modular/pull/88
 
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue H-5: Adding liquidity can be `DoS`ed due to calculation mismatches 
 
@@ -1573,6 +1589,10 @@ Escalations have been resolved successfully!
 
 Escalation status:
 - [KupiaSecAdmin](https://github.com/sherlock-audit/2024-03-arrakis-judging/issues/54/#issuecomment-2167570652): accepted
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue H-6: ArrakisMetaVaultPrivate::fund No slippage control on private vault deposit can cause unlimited loss to owner 
 
@@ -1860,4 +1880,8 @@ Hi @Gevarist , I just realized that the best fix for this issue should be to res
 The protocol team fixed this issue in the following PRs/commits:
 https://github.com/ArrakisFinance/arrakis-modular/pull/88
 
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
